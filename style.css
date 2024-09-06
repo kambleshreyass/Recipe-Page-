@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4e3d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.recipe-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 16px 0;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 16px 0;
+}
+
+.prep-time ul, .ingredients ul, .instructions ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.ingredients ul li, .instructions ol li {
+  margin-bottom: 10px;
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.nutrition table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.nutrition table td:first-child {
+  font-weight: bold;
+}
